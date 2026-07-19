@@ -1,0 +1,13 @@
+# Requires ddcutil and display plugged with displayport
+[Unit]
+Description=Turn off display using ddcutil at shutdown
+DefaultDependencies=no
+Before=poweroff.target halt.target
+Conflicts=reboot.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/ddcutil setvcp d6 05
+
+[Install]
+WantedBy=poweroff.target halt.target
