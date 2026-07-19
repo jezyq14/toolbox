@@ -1,0 +1,13 @@
+# Requires fix-razer-audio.sh script
+[Unit]
+Description=Fix Razer Barracuda X Low Volume Bug on Login
+After=pipewire.service wireplumber.service graphical-session.target
+Requisite=graphical-session.target
+
+[Service]
+Type=oneshotz
+ExecStart=%h/.local/bin/fix-razer-audio.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=graphical-session.target
