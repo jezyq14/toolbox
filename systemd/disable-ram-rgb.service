@@ -1,0 +1,15 @@
+# Requires fury-renegade-rgb
+[Unit]
+Description=Disable Kingston Fury RAM RGB Early
+DefaultDependencies=no
+After=sysinit.target
+Before=display-manager.service basic.target
+
+[Service]
+Type=oneshot
+# Slots 2 and 4
+ExecStart=/usr/local/bin/fury-renegade-rgb -b /dev/i2c-23 -2 -4 brightness --value 0
+RemainAfterExit=yes
+
+[Install]
+WantedBy=basic.target
