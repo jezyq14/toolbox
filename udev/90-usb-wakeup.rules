@@ -1,0 +1,7 @@
+# Rival 3 wireless and Nuphy air75 v3
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="1038", ATTRS{idProduct}=="1830", ATTR{power/wakeup}="enabled"
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="2620", ATTR{power/wakeup}="enabled"
+
+# Monitor USB hub
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="05e3", ATTR{power/wakeup}="enabled"
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="0bda", ATTR{power/wakeup}="enabled"

@@ -1,0 +1,11 @@
+# NuPhy Air75 V3 - Wired Mode
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="1028", MODE="0666"
+
+# NuPhy Air75 V3 - 2.4G Dongle
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="2620", MODE="0666"
+
+# Nuphy Air75 v3 - 2.4G Dongle Updater 1020
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="1020", MODE="0666"
+
+# Nuphy Air75 v3 - Wired Updater 0722
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="19f5", ATTRS{idProduct}=="0722", MODE="0666"
