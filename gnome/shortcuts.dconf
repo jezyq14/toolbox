@@ -1,0 +1,44 @@
+[/]
+move-to-workspace-1=['<Shift><Super>1']
+move-to-workspace-2=['<Shift><Super>2']
+move-to-workspace-3=['<Shift><Super>3']
+move-to-workspace-4=['<Shift><Super>4']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
+home=['<Super>f']
+mic-mute=['F9']
+www=['<Super>b']
+
+[custom-keybindings/custom0]
+binding='<Super>t'
+command='ptyxis'
+name='Terminal'
+
+[custom-keybindings/custom1]
+binding='<Shift><Control>Escape'
+command='ptyxis -e btop'
+name='System monitor'
+
+[custom-keybindings/custom2]
+binding='Launch5'
+command='/home/jezyq/.local/bin/music-volume-control/music-next.sh'
+name='Music next'
+
+[custom-keybindings/custom3]
+binding='Launch6'
+command='/home/jezyq/.local/bin/music-volume-control/music-play-pause.sh'
+name='Music play/pause'
+
+[custom-keybindings/custom4]
+binding='Launch7'
+command='/home/jezyq/.local/bin/music-volume-control/music-vol-down.sh'
+name='Music vol down'
+
+[custom-keybindings/custom5]
+binding='Launch8'
+command='/home/jezyq/.local/bin/music-volume-control/music-vol-up.sh'
+name='Music vol up'
