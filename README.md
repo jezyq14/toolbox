@@ -72,3 +72,9 @@ systemctl --user enable fix-razer-audio.service
 `50-i2c.rules` - allows i2c writes for the fury renegade ram script.
 `50-nuphy.rules` - allows updating my Nuphy Air75 v3 keyboard firmware.
 `90-usb-wakeup.rules` - allows my usb devices to wake up the system.
+
+## Wallpapers
+
+As my current wallpaper I use [Earthset](https://github.com/jezyq14/toolbox/blob/main/wallpapers/earthset.jpg) picture from NASA Artemis II Orion mission.
+
+![Earthset](https://github.com/jezyq14/toolbox/blob/main/wallpapers/earthset.jpg?raw=true)
