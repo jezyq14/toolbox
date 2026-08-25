@@ -70,7 +70,11 @@ systemctl --user enable fix-razer-audio.service
 ## Udev rules
 
 `50-i2c.rules` - allows i2c writes for the fury renegade ram script.
+
 `50-nuphy.rules` - allows updating my Nuphy Air75 v3 keyboard firmware.
+
+`50-razer-dongle-power.rules` - ensures dongle doesn't go to sleep mode while system is on, the only way to wake it up is to replug it in.
+
 `90-usb-wakeup.rules` - allows my usb devices to wake up the system.
 
 ## Wallpapers
